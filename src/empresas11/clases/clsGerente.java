@@ -7,7 +7,7 @@ package empresas11.clases;
 
 public class clsGerente extends clsEmpleado {
 public clsGerente() {
-	// TODO Auto-generated constructor stub
+	super();
 }	
 
 	private String tarjetaProfesional;

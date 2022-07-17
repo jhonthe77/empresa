@@ -12,7 +12,6 @@ import controlador.Ctrlempresa;
 import controlador.Ctrlgerente;
 import empresas11.clases.clsEjecutivo;
 import empresas11.clases.clsEmpleado;
-import empresas11.clases.clsEmpresa;
 import empresas11.clases.clsGerente;
 
 import java.awt.CardLayout;
@@ -23,8 +22,6 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
-import java.awt.Window;
-
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JButton;
@@ -41,10 +38,8 @@ import javax.swing.ImageIcon;
 import javax.swing.SwingConstants;
 import java.awt.Cursor;
 import javax.swing.border.LineBorder;
-import java.awt.event.ContainerAdapter;
-import java.awt.event.ContainerEvent;
 
-@SuppressWarnings("serial")
+
 public class Main extends JFrame {
 
 	private JPanel contentPane;
@@ -499,7 +494,7 @@ public class Main extends JFrame {
 				Ctrlempresa empresa = new Ctrlempresa();
 				lblgerente.setText("Gerentes");
 				scrollPane_1.setBounds(201, 184, 686, 148);
-				clsGerente gerente = empresa.consultarEgerente(table_gerentes);
+				empresa.consultarEgerente(table_gerentes);
 
 			}
 		});

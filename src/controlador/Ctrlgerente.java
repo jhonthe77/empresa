@@ -9,14 +9,13 @@ import java.sql.Statement;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-import empresas11.clases.clsEjecutivo;
 import empresas11.clases.clsGerente;
 
 public class Ctrlgerente {
 	clsGerente gerente = null;
 	DBConecction DBConecction = null;
 	public Ctrlgerente() {
-		// TODO Auto-generated constructor stub
+		
 		gerente = new clsGerente();
 		DBConecction = new DBConecction();
 	}

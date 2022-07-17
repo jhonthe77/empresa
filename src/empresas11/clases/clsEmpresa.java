@@ -7,7 +7,6 @@ package empresas11.clases;
 
 import empresas11.Interfaces.ICamaraComercio;
 import empresas11.Interfaces.ISociedadEmpresarial;
-import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -21,7 +20,7 @@ public class clsEmpresa implements ICamaraComercio, ISociedadEmpresarial {
 	private clsGerente gerente;
 
 	public clsEmpresa() {
-		// TODO Auto-generated constructor stub
+		super();
 	}
 
 	// Método

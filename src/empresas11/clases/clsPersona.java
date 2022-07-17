@@ -83,7 +83,7 @@ public class clsPersona extends absAgenciaEmpleo {
 
 	@Override
 	public String GenerarHojaVida() {
-		// TODO Auto-generated method stub
+	
 		return null;
 	}
 

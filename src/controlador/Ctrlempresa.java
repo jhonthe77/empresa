@@ -5,11 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
-import javax.swing.border.EtchedBorder;
 import javax.swing.table.DefaultTableModel;
 
 import empresas11.clases.clsEmpresa;
@@ -21,7 +18,7 @@ public class Ctrlempresa {
 	clsGerente gerente = null;
 
 	public Ctrlempresa() {
-		// TODO Auto-generated constructor stub
+		
 		DBConecction = new DBConecction();
 		Empresa = new clsEmpresa();
 		gerente = new clsGerente();
@@ -98,7 +95,7 @@ public class Ctrlempresa {
 			System.out.println("empresa consultada con exito");
 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			System.out.println(e.getMessage());
 		}
 
@@ -137,7 +134,7 @@ public class Ctrlempresa {
 			}
 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			System.out.println(e.getMessage());
 		}
 
@@ -213,7 +210,7 @@ public class Ctrlempresa {
 			}
 			return false;
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			System.out.println(e.getMessage());
 		}
 		JOptionPane.showMessageDialog(null, "No fue posible eliminada la empresa ");

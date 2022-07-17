@@ -7,7 +7,7 @@ package empresas11.clases;
 
 public class clsEjecutivo extends clsEmpleado {
 public clsEjecutivo() {
-	// TODO Auto-generated constructor stub
+	
 }
 	private String unidadACargo;
 

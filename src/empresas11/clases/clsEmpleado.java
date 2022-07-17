@@ -29,7 +29,7 @@ public class clsEmpleado extends clsPersona {
 	}
 
 	public clsEmpleado() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public void setIdentificacion(String identificacion) {
