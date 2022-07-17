@@ -12,7 +12,7 @@ public clsGerente() {
 
 	private String tarjetaProfesional;
 
-	public clsGerente(String oficioProfesion, String tarjetaProfesional, String tipoEmpleado, String nombre,
+	public clsGerente(String oficioProfesion, String tarjetaProfesional, String nombre,
 			String primerApellido, String segundoApellido, String identificacion) {
 		super(oficioProfesion, nombre, primerApellido, segundoApellido, identificacion);
 		this.tarjetaProfesional = tarjetaProfesional;
